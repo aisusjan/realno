@@ -1,76 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My First Webpage</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 3 – Flexbox & Grid</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Aisultan Nuriman</h1>
-    <h2>Course: Web Technologies</h2>
-    <h3>About Me</h3>
+  <!-- ================= Part 1: Flexbox ================= -->
+  <!-- Task 0: Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">MyLogo</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <p>Hello! I'm a htmlenjoyer, i love Paul Pogba</p>
+  <!-- Task 1: Card Row -->
+  <section class="card-container">
+    <div class="card">
+      <img src="https://avatars.mds.yandex.net/i?id=2a000001999e5b3d04e1bf1710d63c5dd12d-1675888-fast-images&n=13" alt="Card 1">
+      <h3>Алга кайрат</h3>
+      <p>Kairat vs REal</p>
+      <button>Read More</button>
+    </div>
+    <div class="card">
+      <img src="https://i.ytimg.com/vi/NVn14-5gPNI/maxresdefault.jpg" alt="Card 2">
+      <h3>Темный принц</h3>
+      <p>темный принц</p>
+      <button>Read More</button>
+    </div>
+    <div class="card">
+      <img src="https://russianbigboys.ukit.me/uploads/s/7/w/k/7wkal1twc6yz/img/full_stXPJwSi.png" alt="Card 3">
+      <h3>кайф</h3>
+      <p>iба чотко</p>
+      <button>Read More</button>
+    </div>
+  </section>
 
-    <h3>My Hobbies</h3>
-    <ol>
-        <li>Playing video games</li>
-        <li>mirageenjoyer</li>
-        <li>Playing football</li>
-    </ol>
+  <!-- ================= Part 2: Grid ================= -->
+  <!-- Task 2: Page Layout with Grid Areas -->
+  <section class="grid-layout">
+    <header class="grid-header">Header</header>
+    <aside class="grid-sidebar">Sidebar</aside>
+    <main class="grid-main">Main Content</main>
+    <footer class="grid-footer">Footer</footer>
+  </section>
 
-    <h3>My Favorite Websites</h3>
-    <ul>
-        <li><a href="https://www.youtube.com/watch?v=1NnXmp1M0KM"target="_blank">YouTube</a></li>
-        <li><a href="https://soundcloud.com/darkprinceee/otvratitelnyy-korol" target="_blank">Soundcloud</a></li>
-    </ul>
+  <!-- Task 3: Image Gallery -->
+  <section class="gallery">
+    <div class="gallery-item"><img src="https://avatars.mds.yandex.net/i?id=8193efff5a2350cbaba9a33c8f8e4ac94625ff6ccaa42a41-13583247-images-thumbs&n=13"><div class="caption">Image 1</div></div>
+    <div class="gallery-item"><img src="https://avatars.mds.yandex.net/i?id=63751ba83813c78211da767e72e98d88d392883c-5219071-images-thumbs&n=13"><div class="caption">Image 2</div></div>
+    <div class="gallery-item"><img src="https://avatars.mds.yandex.net/i?id=13f2c35d47f465e4238dd71cc7dd2512_l-10698057-images-thumbs&n=13"><div class="caption">Image 3</div></div>
+    <div class="gallery-item"><img src="https://avatars.mds.yandex.net/i?id=16a95f0a4b18e21040650f7001ab5d86a236d853-8710500-images-thumbs&n=13"><div class="caption">Image 4</div></div>
+    <div class="gallery-item"><img src="https://avatars.mds.yandex.net/i?id=9d9973590984d204e7dd3e6585dada307f9662c9-10143230-images-thumbs&n=13"><div class="caption">Image 5</div></div>
+    <div class="gallery-item"><img src="https://i.ytimg.com/vi/kybIbKEYmDs/maxresdefault.jpg"><div class="caption">Image 6</div></div>
+    <div class="gallery-item"><img src="https://avatars.mds.yandex.net/i?id=b38402805c80e0a3b989fe0021bba188_l-5910043-images-thumbs&n=13"><div class="caption">Image 7</div></div>
+    <div class="gallery-item"><img src="https://site-edu.ru/wp-content/uploads/8/3/b/83b0763fb24da9727fd4547a5155a79a.png"><div class="caption">Image 8</div></div>
+    <div class="gallery-item"><img src="https://avatars.mds.yandex.net/i?id=e115b4a09584769c519c92acd4c7814edb2d7db3-4338206-images-thumbs&n=13"><div class="caption">Image 9</div></div>
+  </section>
 
-    <h3>My Photo</h3>
-   <img src="https://yt3.googleusercontent.com/ytc/AIdro_kxqpb1zVlBrP0uOTO7txQgVfsDYxkmfoktUQ3qQdtsm6A=s900-c-k-c0x00ffffff-no-rj" alt="My Photo" width="200">
+  <!-- ================= Part 3: Portfolio Page ================= -->
+  <!-- Task 4: Portfolio Page -->
+  <section class="portfolio">
+    <header class="portfolio-header">
+      <div class="logo">Portfolio</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <button>Click Me</button>
+    <div class="portfolio-main">
+      <div class="projects">
+        <div class="project-card">
+          <h3>Project 1</h3>
+          <p>Short description of project 1.</p>
+          <button>View</button>
+        </div>
+        <div class="project-card">
+          <h3>Project 2</h3>
+          <p>Short description of project 2.</p>
+          <button>View</button>
+        </div>
+      </div>
+      <aside class="portfolio-sidebar">
+        <h3>About Me</h3>
+        <p>Some info about the portfolio owner.</p>
+      </aside>
+    </div>
 
-    <h3>My Weekly Class Schedule</h3>
-    <table border="1">
-        <tr>
-            <th>Subject</th>
-            <th>Day</th>
-            <th>Time</th>
-        </tr>
-        <tr>
-            <td>Web Tech</td>
-            <td>Wednesday</td>
-            <td>16:00-17:00</td>
-        </tr>
-        <tr>
-            <td>Russian language</td>
-            <td>Tuesday</td>
-            <td>16:00-18:00</td>
-        </tr>
-        <tr>
-            <td>Operating System</td>
-            <td>Friday</td>
-            <td>8:00-9:00</td>
-        </tr>
-    </table>
-
-   
-
-    <p>😤😤😤</p>
-
-    <h3>Contact Me</h3>
-    <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br><br>
-
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
-
-        <label for="color">Favorite Color:</label><br>
-        <input type="color" id="color" name="color"><br><br>
-
-        <input type="submit" value="Submit">
-    </form>
+    <footer class="portfolio-footer">
+      &copy; 2025 My Portfolio
+    </footer>
+  </section>
 
 </body>
 </html>
